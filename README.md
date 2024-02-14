@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isSyntaxError from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-syntax-error@deno/mod.js';
+import isSyntaxError from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-syntax-error@v0.2.0-deno/mod.js';
 ```
 
 #### isSyntaxError( value )
@@ -89,7 +89,7 @@ var bool = isSyntaxError( new SyntaxError( 'beep' ) );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import isSyntaxError from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-syntax-error@deno/mod.js';
+import isSyntaxError from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-syntax-error@v0.2.0-deno/mod.js';
 
 var bool = isSyntaxError( new SyntaxError( 'syntax error' ) );
 // returns true
