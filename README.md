@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import isSyntaxError from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-syntax-error@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-is-syntax-error/tags). For example,
+
+```javascript
 import isSyntaxError from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-syntax-error@v0.2.2-deno/mod.js';
 ```
 
@@ -89,7 +94,7 @@ var bool = isSyntaxError( new SyntaxError( 'beep' ) );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import isSyntaxError from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-syntax-error@v0.2.2-deno/mod.js';
+import isSyntaxError from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-syntax-error@deno/mod.js';
 
 var bool = isSyntaxError( new SyntaxError( 'syntax error' ) );
 // returns true
